@@ -8,9 +8,17 @@
     width: 100%;
     text-align: center;
     height: 300px;
-  }
-  .card-container {
+}
+.card-container {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
-  }
+}
+.bottom-box{
+    margin-top: 30px;
+    border: 3px solid black;
+    height: 200px;
+}
+h2{
+    text-align: center;
+}
